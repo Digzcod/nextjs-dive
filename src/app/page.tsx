@@ -1,4 +1,5 @@
 import React from 'react'
+import AppNavbar from './appNavBar'
 
 export default function HomePage() {
   return (
