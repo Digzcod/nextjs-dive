@@ -4,7 +4,7 @@ import React from 'react'
 const NavbarProduct = () => {
   return (
     <>
-      <AppBar color='warning'>
+      <AppBar color='primary'>
         <Toolbar>
             <Divider>
                 <Typography>Product Navbar</Typography>
