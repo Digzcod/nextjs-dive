@@ -1,21 +1,21 @@
-'use client'
+"use client";
 
-import { AppBar, ListItem, Toolbar, Typography } from '@mui/material'
-import Link from 'next/link'
-import React from 'react'
+import { AppBar, Divider, ListItem, Toolbar, Typography } from "@mui/material";
+import Link from "next/link";
+import React from "react";
 
 export default function AppNavbar() {
   return (
     <>
-    <AppBar color='transparent' sx={{color: 'black'}}>
+      <AppBar color="transparent" sx={{ color: "black" }}>
         <Toolbar>
-            <Typography variant="h6" color="inherit" noWrap>
-                <ListItem>
-                  App Navbar
-                </ListItem>
+          <Divider>
+            <Typography variant="h6" color="red" noWrap>
+              <ListItem>App Navbar Home Page or the main page</ListItem>
             </Typography>
+          </Divider>
         </Toolbar>
-    </AppBar>
+      </AppBar>
     </>
-  )
+  );
 }
