@@ -10,6 +10,8 @@ export const AddProduct = () => {
 
   const { addProduct } = useProductContext();
 
+  console.log(addProduct)
+
   const handleSubmitAdd = () => {
     addProduct({ name, price });
     setName("");
